@@ -1,0 +1,169 @@
+
+**** 12/01/25 22:26:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\JEAN\Desktop\P1_2025_434A_Lungu_Jean_PAI_Capitolul5_N1_Simulator\Schematics\Orcad\proiect_
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\JEAN\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_APD_LUNGU_JEAN
+R_R6         N14577 N39870  330k TC=0,0 
+V_V2         VCC 0 18Vdc
+V_V3         N14496 0  AC 2.5mV
++SIN 0 2.5mV 1k 0 0 0
+X_P1         0 N25036 N15813 POT PARAMS: SET=1 VALUE=50k
+Q_Q2         N15154 N15114 N15552 BC846B 
+Q_Q1         N15114 N14577 N14648 BC846B 
+C_C5         N14648 N23952  1n  TC=0,0 
+C_C6         N23952 N23939  4.7u  TC=0,0 
+C_C1         N14496 N14577  2.2u  TC=0,0 
+C_C3         N15154 N15813  4.7u  TC=0,0 
+R_R1         0 N14496  47k TC=0,0 
+R_R3         0 N14648  1k TC=0,0 
+R_R5         0 N14700  1k TC=0,0 
+R_R15         N14700 N15552  1 TC=0,0 
+R_R9         N23952 N14648  68k TC=0,0 
+R_R11         N26976 N23952  510k TC=0,0 
+R_R12         N40056 N26976  220k TC=0,0 
+R_R2         N15114 N40668  100k TC=0,0 
+R_R4         N15154 VCC  15k TC=0,0 
+R_R27         0 N25036  47k TC=0,0 
+C_C41         0 N14700  4.7u  TC=0,0 
+C_C2         N23939 N15154  4.7u  TC=0,0 
+C_C42         N14700 0  10u  
+R_R7         N39870 N14700  15k TC=0,0 
+R_R13         N23939 N40056  100k TC=0,0 
+R_R21         N40668 VCC  100k TC=0,0 
+
+**** RESUMING sim1.cir ****
+.END
+
+**** 12/01/25 22:26:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\JEAN\Desktop\P1_2025_434A_Lungu_Jean_PAI_Capitolul5_N1_Simulator\Schematics\Orcad\proiect_
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC846B          
+               NPN             
+       LEVEL    1            
+          IS    7.049000E-15 
+          BF  279.1          
+          NF    1            
+         VAF   62.37         
+         IKF     .2201       
+         ISE   59.160000E-15 
+          NE    1.81         
+          BR    3.816        
+          NR    1            
+         IKR    1.859        
+         ISC   16.170000E-15 
+          NC    2.394        
+          NK     .6305       
+         ISS    0            
+          RE    0            
+          RC    1.508        
+         CJE    9.485000E-12 
+         VJE     .5          
+         MJE     .3333       
+         CJC    7.287000E-12 
+         VJC     .5          
+         MJC     .3333       
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          TF  664.000000E-12 
+         XTF  147            
+         VTF   10            
+         ITF    4.664        
+          TR   10.000000E-09 
+         XTB    1.5          
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 12/01/25 22:26:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\JEAN\Desktop\P1_2025_434A_Lungu_Jean_PAI_Capitolul5_N1_Simulator\Schematics\Orcad\proiect_
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   18.0000  (N14496)    0.0000 (N14577)     .6790 (N14648)     .0804     
+
+(N14700)     .7841 (N15114)    1.4409 (N15154)    6.2736 (N15552)     .7849     
+
+(N15813)    0.0000 (N23939)     .0804 (N23952)     .0804 (N25036)    0.0000     
+
+(N26976)     .0804 (N39870)     .7796 (N40056)     .0804 (N40668)    9.7204 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -8.646E-04
+    V_V3         0.000E+00
+
+    TOTAL POWER DISSIPATION   1.56E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/01/25 22:26:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\JEAN\Desktop\P1_2025_434A_Lungu_Jean_PAI_Capitolul5_N1_Simulator\Schematics\Orcad\proiect_
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

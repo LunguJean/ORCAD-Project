@@ -1,0 +1,9 @@
+The conversion of the project was successful.
+
+The new directory structure is as follows:
+
+C:/Users/JEAN/Desktop/2
+    Proiect_APD_Lungu_Jean.opj
+    proiect_apd_lungu_jean.dsn
+C:/Users/JEAN/Desktop/2/Proiect_APD_Lungu_Jean-PSpiceFiles
+C:/Users/JEAN/Desktop/2/Proiect_APD_Lungu_Jean-PSpiceFiles/SCHEMATIC1

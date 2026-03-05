@@ -1,0 +1,41 @@
+  Revised: Saturday, January 17, 2026
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials        January 17,2026      20:03:36	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	2	C18,C34	1n
+2	4	C23,C28,C30,C33	4.7u
+3	1	C27	2.2u
+4	1	J1	PICK-UP-PIEZO1
+5	1	J2	PICK-UP-PIEZO2
+6	1	J3	MIC1
+7	1	J5	RADIO-MAG1
+8	1	J6	RADIO-MAG2
+9	1	J7	OUT
+10	1	J8	POWER +18V
+11	1	J9	RADIO-MAG3
+12	1	J10	PICK-UP-PIEZO3
+13	1	J11	MIC2
+14	2	Q6,Q7	BC846B
+15	1	R6	330k
+16	1	R17	50k
+17	2	R18,R27	47k
+18	2	R19,R20	1k
+19	1	R21	1
+20	6	R25,R28,R30,R32,R38,R39	100k
+21	2	R26,R37	15k
+22	1	R29	4.7k
+23	1	R31	3.9k
+24	2	R33,R36	220k
+25	1	R34	68k
+26	1	R35	510k
+27	1	TP	TEST-POINT
